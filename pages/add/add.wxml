@@ -1,0 +1,7 @@
+<textarea class='text' bindinput="gettext" placeholder="想和花友说点什么" maxlength='-1' show-confirm-bar='false' value="{{text}}"/>
+<view class="images">
+    <image class='image' mode="aspectFill" wx:for="{{photo}}" wx:key="index" src="{{item}}" bindtap="previewimg" bindlongpress="removeimg" data-url="{{item}}"></image>
+    <image wx:if="{{photo.length<9}}" bindtap="chooseimage" class="image" src='../../images/add.png'></image>
+</view>
+<button type="primary" size="{{primarytSize}}" loading="{{loading}}" plain="{{plain}}"
+        disabled="{{disabled}}" bindtap="primary" class="add-btn" open-type="getUserInfo" bindgetuserinfo="done">上传动态</button>

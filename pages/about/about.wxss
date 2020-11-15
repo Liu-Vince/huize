@@ -1,0 +1,7 @@
+/* pages/about/about.wxss */
+.banner{
+  height:400rpx;
+}
+.banner image{
+  width: 100%;
+}

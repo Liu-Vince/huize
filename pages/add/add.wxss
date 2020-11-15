@@ -1,0 +1,28 @@
+page{
+  height: 100%;
+  background-color: #ffffff;
+}
+.text{
+  height: calc(100% - 60px - 800rpx);
+  background-color: rgb(226, 226, 226);
+  width: calc(96% - 30px);
+  margin: 15px auto;
+  padding: 10px 15px;
+  font-size: 14px;
+  color: #000000;
+  line-height: 15px;
+}
+
+.images{
+  height: calc(100% - 60px - 350rpx);
+  margin: 18px auto;
+  width: 96%;
+  background-color: rgb(255, 255, 255);
+  overflow: auto;
+}
+
+.image{
+  height: 215rpx;
+  width: 215rpx;
+  margin:10rpx;
+}

@@ -1,0 +1,7 @@
+/* pages/one/one.wxss */
+.pass1{
+  height:6000rpx;
+  width: 700rpx;
+  margin:40rpx;
+  }
+ 

@@ -1,0 +1,19 @@
+/**index.wxss**/
+
+page {
+  background: #f6f6f6;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.image{
+  height: 300rpx;
+  width: 300rpx;
+  margin:15rpx;
+}
+.tip{
+  height: 1000rpx;
+  width: 300rpx;
+  margin:32rpx;
+}

@@ -1,0 +1,17 @@
+<!--pages/about/about.wxml-->
+<!-- 幻灯片 -->
+<swiper  autoplay="true" interval="5000" duration="500" indicator-dots='true' class='banner'>
+  <view wx:for="{{swiperImg}}" wx:key="swiper{{index}}">
+    <swiper-item>
+      <image src="{{item.src}}"></image>
+    </swiper-item>
+  </view>
+</swiper>
+<view>
+  卉泽专栏
+  
+</view>
+<navigator url='../one/one'><image src="/images/tab11.jpg"></image></navigator>
+<navigator url='../two/two'><image src="/images/tab12.jpg"></image></navigator>
+
+ 
